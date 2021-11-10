@@ -1,0 +1,10 @@
+- pwd
+- cd
+- mkdir
+- ls
+- touch
+- cp 
+- mv
+- rm
+- cat
+- vi
