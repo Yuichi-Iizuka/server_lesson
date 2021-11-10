@@ -1,0 +1,143 @@
+    1  ls /
+    2  ls /usr
+    3  psd
+    4  pwd
+    5  cd /root
+    6  pwd
+    7  cd /usr
+    8  pwd
+    9  cd /home
+   10  mkdir test1
+   11  ls
+   12  mkdir test2/test3
+   13  mkdir -p test2/test3
+   14  ls test
+   15  ls test2
+   16  cd /home
+   17  touch test1/index.php
+   18  ls test1
+   19  cd /home/test1 && ls
+   20  cd /home/test1
+   21  cd index.php copy.php
+   22  cp index.php copy.php
+   23  ls
+   24  cp -r test1 test4
+   25  cd /home
+   26  cp -r test1 test4
+   27  ls
+   28  ls test4
+   29  cd /hpme
+   30  cd /home
+   31  mv test/test3 test3
+   32  mv test2/test3 test3
+   33  ls
+   34  mv test4 test1_copy
+   35  ls
+   36  ls test1
+   37  rm test1/copy.php
+   38  ls test
+   39  ls test1
+   40  rm -r test3
+   41  ls
+   42  rm test1_copy/*.php
+   43  ls
+   44  ls test1_copy
+   45  cat README.md
+   46  cd /home
+   47  ls test1
+   48  ls test1_copy
+   49  ls test2
+   50  echo '# Hello World' > README.md
+   51  cat README.md
+   52  echo '# Server Lesson' > README.md
+   53  cat README.md
+   54  echo 'Linux Practice' >> README.md
+   55  echo '-----------------' >> README.md
+   56  cat README.md
+   57  vi README.md
+   58  cd /root
+   59  pwd
+   60  ls
+   61  ls /
+   62  ls
+   63  mkdir server_lesson && cd server_lesson
+   64  yum update -y && yum -y install git
+   65  git version
+   66  git init
+   67  touch first.text
+   68  ls
+   69  rm first.text
+   70  ls
+   71  touch first.txt
+   72  mkdir linux_practice1 && cd linux_practice1
+   73  pwd
+   74  mkdir public
+   75  cd public
+   76  pwd
+   77  touch index.php
+   78  cp index.php index_bk.php
+   79  ls
+   80  cp ..
+   81  cd ..
+   82  ls
+   83  cp public tmp
+   84  cp -r public tmp
+   85  rm tmp/index_bk.php
+   86  ls
+   87  cd tmp
+   88  ls
+   89  cd /server_lesson
+   90  cd /serverlesson
+   91  pwd
+   92  cd /server_lesson
+   93  /root/server_lesson
+   94  cd /root/server_lesson
+   95  ls
+   96  touch README.md
+   97  vi README.md
+   98  git commit -m "練習問題1完了"
+   99  git add .
+  100  git commit -m "練習問題1実施"
+  101  git status
+  102  git config --global user.email "tyasu634@gmail.com"
+  103  git config --global user.name "Iizuka_Yuichi"
+  104  git commit -m "練習問題1完了"
+  105  git status
+  106  git stage
+  107  mkdir -p linux_practice2/documents
+  108  ls
+  109  cd linux_practice2
+  110  cd Documents
+  111  cls
+  112  ls
+  113  cd documents
+  114  ls
+  115  pwd
+  116  touch gizumo{01..50}.md
+  117  ls
+  118  mkdir /linux_practice2/trash
+  119  cd linux_practice2
+  120  cd /linux_practice2
+  121  cd ..
+  122  mkdir trash
+  123  cd trash
+  124  cd ../
+  125  cd documents
+  126  cd ../
+  127  ls
+  128  mv document/gizumo{20..40}.md trash
+  129  mv documents/gizumo{20..40}.md trash
+  130  cd trash
+  131  ls
+  132  cd ../
+  133  touch .gitignore
+  134  ls
+  135  ls -l
+  136  ls
+  137  vi .gitignore
+  138  history 300
+  139  echo history300 > exec_command.log
+  140  cat exec_command.log
+  141  echo 'history300' > exec_command.log
+  142  cat exec_command.log
+  143  history 300 > exec_command.log
